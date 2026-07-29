@@ -1,2 +1,3 @@
-# UAS_MLP_NUR ALFITRAH_24146074
-UAS Machine Learning - Klasifikasi Bunga Menggunakan MLP
+# UAS_PCD_NUR_ALFITRAH_24146074
+
+UAS Pengolahan Citra Digital - Klasifikasi Bunga Menggunakan MLP
