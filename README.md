@@ -4,8 +4,6 @@ Proyek Ujian Akhir Semester (UAS) mata kuliah **Pengolahan Citra Digital**.
 
 Sistem ini melakukan klasifikasi citra bunga menggunakan algoritma **Multi-Layer Perceptron (MLP)** untuk mengenali jenis bunga berdasarkan pola visual dari gambar.
 
----
-
 ## Identitas Mahasiswa
 
 | Keterangan | Detail |
@@ -16,8 +14,6 @@ Sistem ini melakukan klasifikasi citra bunga menggunakan algoritma **Multi-Layer
 | **Tahun Ajaran** | Genap 2025/2026 |
 | **Program Studi** | Sistem Informasi |
 | **Universitas** | Universitas Abulyatama Aceh |
-
----
 
 # Tentang Proyek
 
@@ -30,8 +26,6 @@ Seluruh proses implementasi terdapat pada notebook:
 ```
 UAS_PCD_NUR_ALFITRAH_24146074.ipynb
 ```
-
----
 
 # Dataset
 
@@ -56,8 +50,6 @@ dataset/
 ```
 
 Setiap folder berisi kumpulan gambar bunga sesuai dengan kategori masing-masing.
-
----
 
 # Alur Kerja Sistem (Pipeline)
 
@@ -115,8 +107,6 @@ Evaluasi dilakukan menggunakan:
 - F1-Score
 - Confusion Matrix
 
----
-
 # Konfigurasi Model
 
 Model menggunakan algoritma MLP dengan konfigurasi:
@@ -137,8 +127,6 @@ Keterangan:
 - Fungsi aktivasi menggunakan ReLU.
 - Optimasi menggunakan Adam.
 - Random state menggunakan NIM agar hasil dapat direproduksi.
-
----
 
 # Hasil
 
@@ -161,8 +149,6 @@ Contoh hasil evaluasi:
 | Recall | Berdasarkan klasifikasi setiap kelas |
 | F1-Score | Berdasarkan klasifikasi setiap kelas |
 
----
-
 # Struktur Repository
 
 ```
@@ -181,8 +167,6 @@ UAS_PCD_NUR_ALFITRAH_24146074/
 │
 └── README.md
 ```
-
----
 
 # Cara Menjalankan Program
 
@@ -208,8 +192,6 @@ menggunakan:
 
 4. Jalankan seluruh cell secara berurutan.
 
----
-
 # Library yang Digunakan
 
 | Library | Fungsi |
@@ -220,8 +202,6 @@ menggunakan:
 | Matplotlib | Visualisasi data |
 | Scikit-learn | Pembuatan model MLP dan evaluasi |
 
----
-
 # Saran Pengembangan
 
 Beberapa pengembangan yang dapat dilakukan:
@@ -231,8 +211,6 @@ Beberapa pengembangan yang dapat dilakukan:
 - Melakukan optimasi parameter model.
 - Membandingkan MLP dengan metode Deep Learning seperti CNN.
 - Menggunakan dataset yang lebih besar untuk meningkatkan akurasi.
-
----
 
 # Lisensi dan Catatan
 
